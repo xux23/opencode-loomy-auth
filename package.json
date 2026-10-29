@@ -1,0 +1,15 @@
+{
+  "name": "opencode-loomy-auth",
+  "version": "0.1.0",
+  "description": "OpenCode/magpie provider plugin: Loomy (讯飞) chat, models and points",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": ["index.mjs", "wechat.mjs", "README.md"],
+  "keywords": ["opencode", "opencode-plugin", "magpie", "loomy", "xunfei"],
+  "license": "MIT",
+  "engines": { "bun": ">=1.0" },
+  "scripts": {
+    "test": "node --test"
+  },
+  "magpie": { "maxConcurrency": 4 }
+}
